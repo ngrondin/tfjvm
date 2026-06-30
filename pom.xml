@@ -3,6 +3,9 @@
   <groupId>io.redback</groupId>
   <artifactId>tfjvm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+</properties>
   <dependencies>
 	
 		<dependency>
@@ -39,7 +42,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.MainClass</mainClass>
+                            <mainClass>tfjvm.Stress</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
