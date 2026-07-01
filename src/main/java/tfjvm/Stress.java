@@ -11,6 +11,7 @@ import org.tensorflow.types.TFloat32;
 public class Stress {
     public static void main(String[] args) {
     	Graph graph = new Graph(); 
+    	
         try (Session session = new Session(graph)) {
         	Ops ops = Ops.create(graph);
         	Shape shape = Shape.of(1000, 1000);
